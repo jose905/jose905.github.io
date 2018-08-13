@@ -1,0 +1,1199 @@
+/* ------ UniAW7.1 from Ian Nicoll & Dacal ------ */
+
+
+/* CLOUDS */
+
+#cloudContainer > div { 
+
+    position: absolute;
+
+    width: 72.46%;
+
+    height: 27.17%;
+
+	opacity: 0.0;
+
+    -webkit-animation-iteration-count: infinite, infinite;
+
+    -webkit-animation-timing-function: linear;
+
+	-webkit-animation-direction: alternate, normal;
+
+}
+
+#cloudContainer > div > img {
+
+     position: absolute;
+
+     width: 50%;
+
+     height: 50%;
+
+}
+
+@-webkit-keyframes float {
+
+	0%	 { -webkit-transform: translate3d(-50px,0px,0px); }
+
+	100% { -webkit-transform: translate3d(414px,0px,0px); }
+
+}
+
+/* FOR SCALING CLOUDS ANIMATION
+0%	 { -webkit-transform: translate3d(-35vw, 0vw, 0px); }
+
+100% { -webkit-transform: translate3d(135vw, 0vw, 0px); }
+*/
+
+@-webkit-keyframes fade_dark_white_clouds {
+
+    0%	 { opacity: 0; }
+
+    10%  { opacity: 0.5; }
+
+	15%	 { opacity: 1; }
+
+    85%  { opacity: 1; }
+
+    95%  { opacity: 0.5; }
+
+    100% { opacity: 0; }
+
+}
+
+@-webkit-keyframes fade_fair_clouds {
+
+    0%	 { opacity: 0; }
+
+    10%  { opacity: 0.3; }
+
+	15%	 { opacity: 0.6; }
+
+	50% { opacity: 0.3; }
+
+    85%  { opacity: 0.6; }
+
+    95%  { opacity: 0.3; }
+
+    100% { opacity: 0; }
+
+}
+
+
+
+/* FOG AND HAZE */
+
+#fogContainer > div {
+
+    position: absolute;
+
+    width: 71%;
+
+    height: 100%;
+
+	opacity: 0.0;
+
+    -webkit-animation-iteration-count: infinite, infinite;
+
+    -webkit-animation-timing-function: linear, ease-in;
+
+	-webkit-animation-direction: alternate, normal;
+
+}
+
+#fogContainer > div > img {
+
+     position: absolute;
+
+     width: 100%;
+
+     height: 27%;
+
+}
+
+@-webkit-keyframes fade_fog_clouds {
+
+    0%	 { opacity: 0; }
+
+    10%  { opacity: 0.7; }
+
+	15%	 { opacity: 1.0; }
+
+	50% { opacity: 0.4; }
+
+    85%  { opacity: 1.0; }
+
+    95%  { opacity: 0.7; }
+
+    100% { opacity: 0; }
+
+}
+
+@-webkit-keyframes fade_haze_clouds {
+
+    0%	 { opacity: 0; }
+
+    10%  { opacity: 0.3; }
+
+	15%	 { opacity: 1.0; }
+
+	50% { opacity: 0.5; }
+
+    85%  { opacity: 1.0; }
+
+    95%  { opacity: 0.3; }
+
+    100% { opacity: 0; }
+
+}
+
+
+
+/* THUNDER */
+
+#frameContainer > div {
+
+    position: absolute;
+
+     width: 100%;
+
+     height: 100%;
+
+	 opacity: 0.0;
+
+    -webkit-animation-iteration-count: 1;
+
+    -webkit-animation-timing-function: linear;
+
+}
+
+#frameContainer > div > img {
+
+     position: absolute;
+
+     width: 100%;
+
+     height: 100%;
+
+}
+
+@-webkit-keyframes thunder_animation1 {
+
+	0% {opacity: .0;}
+
+	12% {opacity: .0;}
+
+	13% {opacity: 10.0;}
+
+	14% {opacity: .0;}
+
+	15% {opacity: 10.0;}
+
+	17% {opacity: .0;}
+
+	18% {opacity: 10.0;}
+
+	19% {opacity: 10.0;}
+
+	21% {opacity: .0;}
+
+	80% {opacity: .0;}
+
+	81% {opacity: 10.0;}
+
+	89% {opacity: .0;}
+
+	100% {opacity: 0.0;}
+
+}
+
+
+
+@-webkit-keyframes thunder_animation2 {
+
+	0% {opacity: .0;}
+
+	25% {opacity: .0;}
+
+	26% {opacity: 10.0;}
+
+	27% {opacity: .0;}
+
+	28% {opacity: 10.0;}
+
+	29% {opacity: .0;}
+
+	30% {opacity: 10.0;}
+
+	33% {opacity: .0;}
+
+	35% {opacity: .0;}
+
+	36% {opacity: 10.0;}
+
+	38% {opacity: 10.0;}
+
+	50% {opacity: .0;}
+
+	100% {opacity: 0.0;}
+
+}
+
+
+
+
+
+/* STARS */
+
+
+
+#starContainer > div {
+
+    position: absolute;
+
+     width: 20px;
+
+     height: 20px;
+
+	 opacity: 0.0;
+
+    -webkit-animation-iteration-count: infinite;
+
+    -webkit-animation-timing-function: cubic-bezier(0,1,1,0);
+
+	-webkit-animation-direction: alternate;
+
+}
+
+#starContainer > div > img {
+
+     position: absolute;
+
+     width: 20px;
+
+     height: 20px;
+
+}
+
+@-webkit-keyframes star_anim {
+
+	0% {
+
+	-webkit-transform : scale3d(0,0,0);	
+
+	opacity: 0.0;
+
+	}
+
+	20% {
+
+	-webkit-transform : scale3d(1,1,1);	
+
+	opacity: 0.7;
+
+	}
+
+	40% {
+
+	-webkit-transform : scale3d(0.5,0.5,0.5);	
+
+	opacity: 0.5;
+
+	}
+
+	60% {
+
+	-webkit-transform : scale3d(1,1,1);
+
+	opacity: 0.9;
+
+	}
+
+	90% {
+
+	-webkit-transform : scale3d(0,0,0);
+
+	opacity: 0.0;
+
+	}
+
+	100% {opacity: 0.0;}
+
+}
+
+
+
+/* METEORS */
+
+
+
+#meteorContainer > div {
+
+    position: absolute;
+
+    width: 20px;
+
+    height: 20px;
+
+	 opacity: 0.0;
+
+    -webkit-animation-iteration-count: 1, 1;
+
+    -webkit-animation-timing-function: linear, ease-in-out;
+
+}
+
+#meteorContainer > div > img {
+
+     position: absolute;
+
+     width: 20px;
+
+     height: 20px;
+
+}
+
+@-webkit-keyframes drop_meteor1 {
+    0%	 { -webkit-transform: translate3d(0px, 0px, 0px); }
+    100% { -webkit-transform: translate3d(-60px, 60px, 0px); }
+}
+@-webkit-keyframes drop_meteor2 {
+    0%	 { -webkit-transform: translate3d(0px, 0px, 0px); }
+    100% { -webkit-transform: translate3d(60px ,60px, 0px); }
+}
+@-webkit-keyframes drop_meteor_sideways_1 {
+    0%	 { -webkit-transform: translate3d(0px, 0px, 0px); }
+    100% { -webkit-transform: translate3d(-100px, 20px, 0px); }
+}
+@-webkit-keyframes drop_meteor_sideways_2 {
+    0%	 { -webkit-transform: translate3d(0px, 0px, 0px); }
+    100% { -webkit-transform: translate3d(100px, 20px, 0px); }
+}
+@-webkit-keyframes fade_meteor {
+    0%	 { opacity: 0; }
+	80%  { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+
+
+/* FROST */
+
+
+
+@-webkit-keyframes frost_animation {
+
+	0% {opacity: 0.0;}
+
+	50% {opacity: 1.0;}
+
+	100% {opacity: 0.0;}
+
+}
+
+
+
+#frost {
+	position: absolute;
+
+	left: 0px;
+
+    top: 0px;
+
+    width: 100%;
+
+    height: 100%;
+
+	background-color: transparent;
+
+	opacity: 0.0;
+
+	-webkit-animation-name: frost_animation;
+
+    -webkit-animation-duration: 15s;
+
+	-webkit-animation-iteration-count: infinite;	    
+
+    -webkit-animation-delay: 1s;
+
+}
+
+
+
+/* CIRCLES */
+
+
+
+#circleContainer > div {
+
+    position: absolute;
+
+    width: 50px;
+
+    height: 50px;
+
+	opacity: 0.0;
+
+    -webkit-animation-iteration-count: infinite, infinite;
+
+    -webkit-animation-timing-function: linear, ease-in-out;
+
+}
+
+#circleContainer > div > img {
+
+     position: absolute;
+
+     width: 50px;
+
+     height: 50px;
+
+}
+
+@-webkit-keyframes fade1 {
+
+    0%	 { opacity: 1; }
+
+	20%  { opacity: 0; }
+
+    100% { opacity: 0; }
+
+}
+
+@-webkit-keyframes fade2 {
+
+    0%	 { opacity: 1; }
+
+	66%  { opacity: 1; }
+
+    100% { opacity: 0; }
+
+}
+
+@-webkit-keyframes fade3 {
+
+    0%	 { opacity: 0; }
+
+	30%	 { opacity: 0; }
+
+	75%  { opacity: 1; }
+
+    100% { opacity: 0; }
+
+}
+
+@-webkit-keyframes fade4 {
+
+    0%	 { opacity: 0; }
+
+	50%	 { opacity: 0; }
+
+	90%  { opacity: 1; }
+
+    100% { opacity: 0; }
+
+}
+
+@-webkit-keyframes scale1 {
+
+    0%	 {   -webkit-transform: scale3d(0,0,0); }
+
+    5%	 {   -webkit-transform: scale3d(1,1,1); }	
+
+    100% {   -webkit-transform: scale3d(0.5,0.5,0.5); }
+
+}
+
+@-webkit-keyframes scale2 {
+
+    0%	 {   -webkit-transform: scale3d(0,0,0); }
+
+    100% {   -webkit-transform: scale3d(2,2,2); }
+
+}
+
+@-webkit-keyframes scale3 {
+
+    0%	 {   -webkit-transform: scale3d(0,0,0); }
+
+    33%  {   -webkit-transform: scale3d(0,0,0); }
+
+    100% {   -webkit-transform: scale3d(1.5,1.5,1.5); }
+
+}
+
+@-webkit-keyframes scale4 {
+
+    0%	 {   -webkit-transform: scale3d(0,0,0); }
+
+    50%  {   -webkit-transform: scale3d(0,0,0); }
+
+    100% {   -webkit-transform: scale3d(1,1,1); }
+
+}
+
+
+
+/* WIRE */
+
+
+
+#wireContainer > div {
+
+    position: absolute;
+
+	opacity: 0.0;
+
+    width: 4px;
+
+    height: 255px;
+
+    -webkit-animation-iteration-count: infinite, infinite;
+
+    -webkit-animation-timing-function: linear, ease-in;
+
+}
+
+#wireContainer > div > img {
+
+    position: absolute;
+
+    width: 4px;
+
+    height: 255px;
+
+}
+
+@-webkit-keyframes drop_wire {
+
+    0%	 { -webkit-transform: translate3d(0px,-200px,0px); }
+    100% { -webkit-transform: translate3d(0px,600px,0px); }
+
+}
+
+@-webkit-keyframes fade_wire {
+
+    0%	 { opacity: 0; }
+
+	10%	 { opacity: 0.7; }
+
+	50%	 { opacity: 0.9; }
+
+	85%  { opacity: 0.6; }
+
+    100% { opacity: 0; }
+
+}
+
+
+
+/* RAIN */
+
+
+
+#dropContainer > div {
+
+    position: absolute;
+
+	opacity: 0.0;
+
+    width: 12px;
+
+    height: 12px;
+
+    -webkit-animation-iteration-count: infinite, infinite;
+
+    -webkit-animation-timing-function: linear;
+
+}
+
+#dropContainer > div > img {
+
+    position: absolute;
+
+    width: 12px;
+
+    height: 12px;
+
+}
+
+@-webkit-keyframes drop {
+
+    0%	 { -webkit-transform: translate3d(0px,-50px,0px); }
+    100% { -webkit-transform: translate3d(0px,600px,0px); }
+
+}
+
+@-webkit-keyframes fade_rain_sleet {
+
+    0%	 { opacity: 0; }
+
+	5%	 { opacity: 0.8; }
+
+	95%  { opacity: 0.7; }
+
+    100% { opacity: 0; }
+
+}
+
+@-webkit-keyframes fade_snow {
+
+    0%	{ opacity: 0; }
+
+	5%	 { opacity: 1; }
+
+	50%  {opacity: 1; }
+
+	95%  { opacity: 1; }
+
+    100% { opacity: 0; }
+
+}
+
+@-webkit-keyframes fade_hail {
+
+    0%	 { opacity: 0; }
+
+	15%	 { opacity: 0.7; }
+
+	50%	 { opacity: 0.9; }
+
+	85%  { opacity: 0.7; }
+
+    100% { opacity: 0; }
+
+}
+
+
+
+/* WIPER */
+
+
+
+#wiper {
+
+	position: absolute;
+
+	background-size: 17.19% 52.82%;
+
+	top: -3.5%;
+
+	left: 37.5%;
+	width: 15%;
+
+	height: 39.5%;
+
+	-webkit-animation: wiper;	
+
+	-webkit-transform-origin-x: 47px;
+
+	-webkit-transform-origin-y: 8px;
+
+	-webkit-animation-duration: 10s;
+
+	-webkit-animation-iteration-count: infinite;
+
+}
+
+@-webkit-keyframes wiper {
+
+0%		{-webkit-transform: rotateZ(-115deg);}
+
+60%	{-webkit-transform: rotateZ(-115deg);}
+
+70%	{-webkit-transform: rotateZ(95deg);}
+
+80%	{-webkit-transform: rotateZ(-115deg);}
+
+100%	{-webkit-transform: rotateZ(-115deg);}
+
+}
+
+#trace {
+
+	position: absolute;
+
+	background-size: 100% 100%;
+
+	top: 0px;
+
+	left: 0px;
+
+	height: 100%;
+
+	width: 100%;
+
+	-webkit-animation: fade_trace;
+
+	-webkit-animation-duration: 10s;
+
+	-webkit-animation-iteration-count: infinite;
+
+}
+
+@-webkit-keyframes fade_trace {
+
+    0%	 { opacity: 0; }
+
+	62% { opacity: 0; }
+
+	70%	 { opacity: 0.6; }
+
+	72%	 { opacity: 0.6; }
+
+	80%	 { opacity: 0; }
+
+    100% { opacity: 0; }
+
+}
+
+#water {
+
+	position: absolute;
+
+	background-size: 100% 100%;
+
+	bottom: 26%;
+
+	left: 0px;
+
+	height: 100%;
+
+	width: 100%;
+
+	-webkit-animation: fade_water;
+
+	-webkit-animation-duration: 10s;
+
+    -webkit-animation-timing-function: ease;
+
+	-webkit-animation-iteration-count: infinite;
+
+}
+
+@-webkit-keyframes fade_water {
+
+    0%	 { opacity: 0.0; }
+
+    30%  { opacity: 0.0; }
+
+	63% { opacity: 0.8; }
+
+	65%	 { opacity: 0.0; }
+
+    100% { opacity: 0.0; }
+
+}
+
+
+
+/* DANDELION */
+
+#dandelionContainer > div {
+    position: absolute;
+    width: 25%;
+    height: 14.96%;
+	opacity: 0.0;
+    -webkit-animation-iteration-count: infinite, infinite;
+    -webkit-animation-timing-function: linear, ease-in;
+}
+#dandelionContainer > div > img {
+     position: absolute;
+	 width: 100%;
+	 height: 100%;
+     -webkit-animation-iteration-count: infinite;
+     -webkit-animation-timing-function: ease-in-out;
+     -webkit-transform-origin: 50% -100%;
+}
+@-webkit-keyframes fade_seed {
+    0%	 { opacity: 0; }
+    10%	 { opacity: 0; }
+	20%  { opacity: 0.9; }
+    95%  { opacity: 0.9; }
+    100% { opacity: 0; }
+}
+@-webkit-keyframes float_seed {
+    0%	 { -webkit-transform: translate3d(12.5vw,0vh,0px); }
+    100% { -webkit-transform: translate3d(100vw,-22vh,0px); }
+}
+@-webkit-keyframes float_seed2 {
+    0%	 { -webkit-transform: translate3d(12.5vw,0vh,0px); }
+    100% { -webkit-transform: translate3d(150vw,-70vh,0px); }
+}
+@-webkit-keyframes clockwiseSpin {
+    0%	 { -webkit-transform: rotate3d(0,0,1,-40deg); }
+    50%	 { -webkit-transform: rotate3d(0,0,1,40deg); }
+    100% { -webkit-transform: rotate3d(0,0,1,-40deg); }
+}
+@-webkit-keyframes counterclockwiseSpinAndFlip {
+    0%	 { -webkit-transform: rotate3d(0,0,1,40deg); }
+    50%	 { -webkit-transform: rotate3d(0,0,1,-40deg); }
+    100% { -webkit-transform: rotate3d(0,0,1,20deg); }
+}
+
+#dandelion {
+	position: absolute;
+	background-size: 47% 26%;
+	bottom: 0%;
+	left: 0%;
+	height: 26%;
+	width: 47%;
+	opacity: 0.0;
+	-webkit-animation: dandelion_anim 2s ease-out 1 normal;
+	-webkit-animation-fill-mode: forwards;
+	display: none;
+}
+@-webkit-keyframes dandelion_anim {
+		0% { opacity : 0; }
+		50% { opacity : 0; }
+		100% { opacity : 0.8; }
+}
+
+/* LEAVES */
+
+#leafContainer > div {
+position: absolute;
+width: 7.8%;
+height: 4.4%;
+-webkit-animation-iteration-count: infinite, infinite;
+-webkit-animation-direction: normal, horizontal ;
+-webkit-animation-timing-function: linear, ease-in;
+}
+#leafContainer > div > img {
+position: absolute;
+width: 80%;
+height: 80%;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: alternate;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-transform-origin: 0% 100%;
+}
+@-webkit-keyframes fade_leaves {
+0%	 { opacity: 0; }
+5%  { opacity: 1; }
+95%  { opacity: 1; }
+100% { opacity: 0; }
+}
+@-webkit-keyframes float_leaves {
+0%	 { -webkit-transform: translate3d(-100px, -100px,0px); }
+100% { -webkit-transform: translate3d(670px, 100px,0px); }
+}
+@-webkit-keyframes clockwiseSpin_leaves {
+0%	 { -webkit-transform: rotateX(-180deg); }
+100% { -webkit-transform: rotateX(180deg); }
+}
+@-webkit-keyframes counterclockwiseSpin_leaves {
+0%	 { -webkit-transform: rotateZ(180deg); }
+100% { -webkit-transform: rotateZ(-180deg); }
+}
+
+/* WINDMILL */
+
+#windmill {
+	position: absolute;
+	background-size: 100% 100%;
+	bottom: 0%;
+	left: 0%;
+	width: 55%;
+	height: 55%;
+}
+
+#wings { 
+	position: absolute;
+	top: 67%;
+	right: 62%;
+	height: auto;
+	width: 55%;
+	-webkit-transform-origin-x: 50%;
+	-webkit-transform-origin-y: 50%;
+	-webkit-animation: wings_rotate;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+
+}
+@-webkit-keyframes wings_rotate{
+0%		{-webkit-transform: rotateZ(-20deg); }
+90%	{-webkit-transform: rotateZ(1430deg); }
+100%	{-webkit-transform: rotateZ(1420deg); }
+}
+
+/* SUN OR MOON */
+
+#sunContainer {
+    position: absolute;
+    top: -2%;
+	left: 0px;
+    width: 100%;
+    height: 100%;
+	z-index: 10;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+
+#sun {
+	background:url('../Images/Weather/sun/sun.png') center no-repeat;
+	background-size: 40% 40%;
+    position: absolute;
+    top: -22.89%;
+	left: 0px;
+    width: 100%;
+    height: 56.34%;
+	opacity: 0.0;
+	z-index: 12;
+	-webkit-transition: all 0.5s linear;
+	-webkit-animation: shineSun 10s linear infinite normal;
+}
+
+#Dacalsun {
+	background:url('../Images/Weather/sun/Dacalsun.png') center no-repeat;
+	background-size: 40% 40%;
+    position: absolute;
+    top: -22.89%;
+	left: 0px;
+    width: 100%;
+    height: 56.34%;
+	opacity: 0.0;
+	z-index: 12;
+	-webkit-transition: all 0.5s linear;
+	-webkit-animation: shineSun 10s linear infinite normal;
+}
+
+#sunray {
+	background:url('../Images/Weather/sun/sunray.png') center no-repeat;
+	background-size: 40% 40%;
+    position: absolute;
+    top: -18.89%;
+	left: 0px;
+    width: 100%;
+    height: 56.34%;
+	opacity: 0.0;
+	z-index: 11;
+	-webkit-animation: sunray_anim 10s linear infinite normal;
+	-webkit-transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes sunray_anim {
+		0% { opacity : 0.0; -webkit-transform : scale3d(0.5,0.5,1); }
+		50% { opacity : 0.9; -webkit-transform : scale3d(1,1,1); }
+		90% { opacity : 0.0; -webkit-transform : scale3d(1.5,1.5,1);}
+		100% { opacity : 0.0; -webkit-transform : scale3d(1.7,1.7,1); }
+}
+
+@-webkit-keyframes shineSun {
+		0% { opacity : 0.9 ; }
+		50% { opacity : 1.0; }
+		100% { opacity : 0.9; }
+}
+
+#moonContainer {
+    position: absolute;
+    top: -2%;
+	left: 0px;
+    width: 100%;
+    height: 100%;
+	z-index: 15;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+
+#moon {
+	background:url('../Images/Weather/moon/3.png') center no-repeat;
+	background-size: 40% 40%;
+    position: absolute;
+    top: -22.89%;
+	left: 0px;
+    width: 100%;
+    height: 56.34%;
+	z-index: 17;
+	-webkit-transition: all 0.5s linear;
+}
+
+#moonray {
+	background:url('../Images/Weather/moon/moonray.png') center no-repeat;
+	background-size: 40% 40%;
+    position: absolute;
+    top: -22.89%;
+	left: 0px;
+    width: 100%;
+    height: 56.34%;
+	opacity: 0.0;
+	z-index: 16;
+	-webkit-animation: shineMoonray 10s linear infinite normal;
+}
+
+@-webkit-keyframes shineMoonray {
+		0% { opacity : 0.0 ; }
+		50% { opacity : 1.0; }
+		100% { opacity : 0.0; }
+}
+
+/* RAINBOW */
+
+#rainbow {
+	position: absolute;
+	background-size: 40% 40%;
+	left: 0px;
+    top: -5%;
+	width: 100%;
+	height: 100%;
+	opacity: 0.0;
+	-webkit-animation-name: rainbow_animation;
+    -webkit-animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;	    
+    -webkit-animation-delay: 4s;
+}
+
+@-webkit-keyframes rainbow_animation {
+	0% {opacity: 0.2;}
+	50% {opacity: 0.3;}
+	100% {opacity: 0.2;}
+}
+
+/* BIRDS */
+
+#Birds {
+
+	position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 125.5%;
+    height: 13.95%;
+	-webkit-animation: birds_anim;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 120s;
+    -webkit-animation-timing-function: linear;
+}	
+
+@-webkit-keyframes birds_anim {
+    0%	 { -webkit-transform: translate3d(85.1%, 129%, 0%); }
+    100% { -webkit-transform: translate3d(-127.66%, -86%, 0%); }
+}
+
+/* ASTRONAUT */
+
+#astronaut {
+	position: absolute;
+	top: -10px;
+	width: 40px;
+	height: 55px;
+	left: -40px;
+	-webkit-animation: astronaut_anim;
+	-webkit-animation-duration: 120s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-direction: alternate;
+}	
+
+@-webkit-keyframes astronaut_anim {
+	0%	 { -webkit-transform: translate3d(0px, 0px, 0px) scale3d(0.0, 0.0, 1.0) rotateZ(-40deg) }
+	5%	 { -webkit-transform: translate3d(10px, 1px, 0px) scale3d(0.1, 0.1, 1.0) rotateZ(-20deg) }
+	10%  { -webkit-transform: translate3d(20px, 2px, 0px) scale3d(0.2, 0.2, 1.0) rotateZ(0deg) }
+	15%  { -webkit-transform: translate3d(30px, 3px, 0px) scale3d(0.3, 0.3, 1.0) rotateZ(20deg) }
+	20%  { -webkit-transform: translate3d(40px, 4px, 0px) scale3d(0.4, 0.4, 1.0) rotateZ(40deg) }
+	25%  { -webkit-transform: translate3d(50px, 5px, 0px) scale3d(0.5, 0.5, 1.0) rotateZ(20deg) }
+	30%  { -webkit-transform: translate3d(60px, 6px, 0px) scale3d(0.6, 0.6, 1.0) rotateZ(0deg) }
+	35%  { -webkit-transform: translate3d(70px, 7px, 0px) scale3d(0.7, 0.7, 1.0) rotateZ(-20deg) }
+	40%  { -webkit-transform: translate3d(80px, 8px, 0px) scale3d(0.8, 0.8, 1.0) rotateZ(-40deg) }
+	45%  { -webkit-transform: translate3d(90px, 9px, 0px) scale3d(0.8, 0.8, 1.0) rotateZ(-20deg) }
+	50%  { -webkit-transform: translate3d(110px, 10px, 0px) scale3d(0.8, 0.8, 1.0) rotateZ(0deg) }
+	55%  { -webkit-transform: translate3d(130px, 11px, 0px) scale3d(0.8, 0.8, 1.0) rotateZ(20deg) }
+	60%  { -webkit-transform: translate3d(160px, 10px, 0px) scale3d(0.8, 0.8, 1.0) rotateZ(40deg) }
+	65%  { -webkit-transform: translate3d(190px, 9px, 0px) scale3d(0.8, 0.8, 1.0) rotateZ(20deg) }
+	70%  { -webkit-transform: translate3d(220px, 8px, 0px) scale3d(0.8, 0.8, 1.0) rotateZ(0deg) }
+	75%  { -webkit-transform: translate3d(250px, 7px, 0px) scale3d(0.8, 0.8, 1.0) rotateZ(-20deg) }
+	80%  { -webkit-transform: translate3d(280px, 6px, 0px) scale3d(0.8, 0.8, 1.0) rotateZ(-40deg) }
+	85%  { -webkit-transform: translate3d(310px, 5px, 0px) scale3d(0.8, 0.8, 1.0) rotateZ(-20deg) }
+	90%  { -webkit-transform: translate3d(340px, 2px, 0px) scale3d(0.6, 0.6, 1.0) rotateZ(0deg) }
+	95%  { -webkit-transform: translate3d(370px, 1px, 0px) scale3d(0.5, 0.5, 1.0) rotateZ(20deg) }
+	100% { -webkit-transform: translate3d(440px, 1px, 0px) scale3d(0.4, 0.4, 1.0) rotateZ(40deg) }
+}
+
+/* BALLOONS */
+
+#big_balloonContainer > div {
+	position: absolute;
+	width: 62.5%;
+	height: 23.41%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+#big_balloonContainer > div > img {
+	position: absolute;
+	width: 40%;
+	height: 40%;
+}
+#medium_balloonContainer > div {
+	position: absolute;
+	width: 62.5%;
+	height: 23.41%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+#medium_balloonContainer > div > img {
+	position: absolute;
+	width: 40%;
+	height: 40%;;
+}
+
+#small_balloonContainer > div {
+	position: absolute;
+	width: 62.5%;
+	height: 23.41%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+#small_balloonContainer > div > img {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+}
+@-webkit-keyframes balloon_float {
+	0%	 { -webkit-transform: translate3d(-100px, 0px, 0px); }
+	100% { -webkit-transform: translate3d(514px, 0px, 0px); }
+}
+
+/* FOR SCALING BALLOONS ANIMATION
+
+0%	 { -webkit-transform: translate3d(-80vw, 0vw, 0px); }
+100% { -webkit-transform: translate3d(155vw, 0vw, 0px); }
+*/
+
+/* STATIC CLOUDS */
+
+#Static_cloud {
+	position: absolute;
+	left: 0%;
+    top: -1.40%;
+	width: 100%;
+	height:40%;
+	opacity: 0.0;
+	-webkit-animation: Static_cloud_animation 20s linear 1 normal;
+	-webkit-animation-fill-mode: forwards;	 
+}
+
+@-webkit-keyframes Static_cloud_animation {
+	0% {opacity: 0;}
+	100% {opacity: 0.5;}
+}
+
+/* STATIC STARS */
+
+#Static_stars {
+	position: absolute;
+	left: 0px;
+    top: 0px;
+	width: 100%;
+	height: 12%;
+	opacity: 0.0;
+	-webkit-animation: Static_stars_animation 4s linear 1 normal;
+	-webkit-animation-fill-mode: forwards;	 
+}
+
+@-webkit-keyframes Static_stars_animation {
+	0% {opacity: 0.0; }
+	100% {opacity: 1.0;}
+}
+

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- UniAW7.1 By Ian Nicoll and Dacal -->
+
+<html>
+
+<head>
+	<title>UniAW7</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<link rel="stylesheet" media="screen" href="AnemoneHTML/Css/Style.css" type="text/css" />
+	<link rel="stylesheet" media="screen" href="AnemoneHTML/Css/Animations.css" type="text/css" />
+	<script type="text/javascript" charset="utf-8" src="AnemoneHTML/JavaScript/jquery.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="Config_iWidget.js"></script>
+	<script type="text/javascript" charset="utf-8" src="AnemoneHTML/JavaScript/touch.js"></script>
+    <script type="text/javascript" charset="utf-8" src="AnemoneHTML/JavaScript/touch1.js"></script>
+	<script type="text/javascript" charset="utf-8" src="AnemoneHTML/JavaScript/translation.js"></script>
+	<script type="text/javascript" charset="utf-8" src="AnemoneHTML/JavaScript/main.js"></script>
+	<script type="text/javascript" charset="utf-8" src="AnemoneHTML/JavaScript/workaround.js"></script>
+	<script type="text/javascript" charset="utf-8" src="AnemoneHTML/JavaScript/moon.js"></script>
+	<script type="text/javascript" charset="utf-8" src="AnemoneHTML/JavaScript/sun.js"></script>
+	<script type="text/javascript" charset="utf-8" src="AnemoneHTML/JavaScript/animations.js"></script>
+</head>
+
+<body>
+
+<div id="statusBarContainer">
+	<div id="statusBar"></div>
+</div>
+<div id="StatusBaruser"></div>
+        
+<div id="TouchShowHourlyForecast"></div>
+<div id="animationsTouchLayer"></div>
+<div id="animationsOff">Animations Off</div>
+<div id="animationsOn">Animations On</div>
+<div id="TouchMoonInfo"></div>
+<div id="TouchHourlyForecastSlide"></div>
+<div id="TouchNext"><div id="Next">></div></div>
+<div id="TouchPrevious"><div id="Prev"><</div></div>
+<div id="TouchHome"></div>
+
+<div id="touch1" onclick="touch1()" ></div>
+<div id="touch2" onclick="touch2()" ></div>
+<div id="touch3" onclick="touch3()" ></div>
+       
+<div id="background">
+	<img id="LayerBack" src="AnemoneHTML/Images/Layer/Layer_black.png"/>
+	<div id="Now" class="fade-out">
+		<img id="Layer" src="AnemoneHTML/Images/Layer/blank.png"/>
+	</div>
+	<div id="WPContainerTW">
+		<div id= "WPoneTWContainer" class="fade-out"><img id="WPoneTW"src="AnemoneHTML/Images/Layer/blank.png"/></div>
+		<div id= "WPtwoTWContainer" class="fade-out"><img id="WPtwoTW" src="AnemoneHTML/Images/Layer/blank.png"/></div>
+	</div>
+</div>
+
+<div id="Overlay"></div>
+<img id="Day0Icon" src="AnemoneHTML/Icon Sets/blank.png"/>
+
+<div id="battery_pos">
+            <div id="battery"></div>
+			<div id = "BatteryLevel"></div>
+			<div id = "BatteryState"></div>
+			<img id = "BatteryImage" src = "AnemoneHTML/Images/battery/blank.png" alt=""/>
+		</div>
+        
+<div id="Clock">
+	<div id="clockface"></div>
+	<div id="analogClockFrame"></div>
+	<div id="digitalClockFrame"></div>
+	<div id="clocklogo"></div>
+	<div id="clockglass"></div>
+	<div id="clockhands">
+		<div id="hourhand"></div>
+		<div id="minhand"></div>
+		<div id="sechand"></div>
+		<div id="node"></div>
+	</div>
+	<div id="Digitalclock">
+		<div id="hours_minutes"></div>
+		<div id="second"></div>
+		<div id="ampm"></div>
+	</div>
+	<div id="calendar">
+		<div id="number"></div>
+		<div id="day"></div>
+		<div id="month"></div>
+		<div id="year"></div>
+	</div>
+	<div id="moonDescription"></div>
+</div>
+
+<div id="WeatherContainer">
+   <div id="cityDay0desc">
+	<span id="city"></span>
+    <span id="Day0desc"></span>
+   </div>
+	<div id="coordinates"></div>
+   <div id="Day0HiDay0Lo">
+	<span id="Day0Hi"></span>
+	<span id="Day0Lo"></span>
+   </div>
+	<div id="Day0Temp"></div>
+	<div id="dewpt"></div>
+	<div id="feelslike"></div>
+	<div id="rising"></div>
+	<div id="SingleLineDate"></div>
+	<div id="UVindex"></div>
+	<div id="visibility"></div>
+	<div id="WeatherInfoBG"></div>
+	
+	<div id="xmlupdate"></div>
+
+	<div id="Moonphase">
+       <table id="windInfoContainer" cellspacing="6">
+		<tr>
+			<td id="windspeed"></td>
+			<td id="windArrow"></td>
+		</tr>
+	  </table>
+        <div id="humidity"></div>
+	    <div id="pressure"></div>
+        <div id="mooninfoBG"></div>
+       <div id="SunInfo">
+	    <div id="Sunrise"></div>
+	    <div id="Sunset"></div> 
+      </div>
+       <div id="MoonInfo">
+		<div id="Moonrise"></div>
+		<div id="Moonset"></div>
+	</div>
+        <div id="address"></div>
+		<img id="MoondateIcon0" src="AnemoneHTML/Icon Sets/blank.png"/>
+		<img id="MoondateIcon1" src="AnemoneHTML/Icon Sets/blank.png"/>
+		<img id="MoondateIcon2" src="AnemoneHTML/Icon Sets/blank.png"/>
+		<img id="MoondateIcon3" src="AnemoneHTML/Icon Sets/blank.png"/>
+		<div id="Moondate0"></div>
+		<div id="Moondate1"></div>
+		<div id="Moondate2"></div>
+		<div id="Moondate3"></div>
+	</div>
+
+	<div id="forecast_hourlyforecast_Container">
+	 <div id="forecastContainer" >
+            <div id="forecastBG"></div>
+			<img id="Day1Icon" src="AnemoneHTML/Icon Sets/blank.png"/>
+			<img id="Day2Icon" src="AnemoneHTML/Icon Sets/blank.png"/>
+			<img id="Day3Icon" src="AnemoneHTML/Icon Sets/blank.png"/>
+			<img id="Day4Icon" src="AnemoneHTML/Icon Sets/blank.png"/>
+			<img id="Day5Icon" src="AnemoneHTML/Icon Sets/blank.png"/>
+
+			<div id="Day1Pop"></div>
+			<div id="Day2Pop"></div>
+			<div id="Day3Pop"></div>
+			<div id="Day4Pop"></div>
+			<div id="Day5Pop"></div>
+
+			<div id="Day1"></div>
+			<div id="Day2"></div>
+			<div id="Day3"></div>
+			<div id="Day4"></div>
+			<div id="Day5"></div>
+
+			<div id="Day1HiLo"></div>
+			<div id="Day2HiLo"></div>
+			<div id="Day3HiLo"></div>
+			<div id="Day4HiLo"></div>
+			<div id="Day5HiLo"></div>
+		        
+                <div id="hourlyforecastBG"></div>
+				<img id="Hicon0" src="AnemoneHTML/Icon Sets/blank.png"/>
+				<img id="Hicon1" src="AnemoneHTML/Icon Sets/blank.png"/>
+				<img id="Hicon2" src="AnemoneHTML/Icon Sets/blank.png"/>
+				<img id="Hicon3" src="AnemoneHTML/Icon Sets/blank.png"/>
+				<img id="Hicon4" src="AnemoneHTML/Icon Sets/blank.png"/>
+				<img id="Hicon5" src="AnemoneHTML/Icon Sets/blank.png"/>
+				<img id="Hicon6" src="AnemoneHTML/Icon Sets/blank.png"/>
+				<img id="Hicon7" src="AnemoneHTML/Icon Sets/blank.png"/>
+				<img id="Hicon8" src="AnemoneHTML/Icon Sets/blank.png"/>
+				<img id="Hicon9" src="AnemoneHTML/Icon Sets/blank.png"/>
+				<img id="Hicon10" src="AnemoneHTML/Icon Sets/blank.png"/>
+				<img id="Hicon11" src="AnemoneHTML/Icon Sets/blank.png"/>
+
+				<div id="Hpop0"></div>
+				<div id="Hpop1"></div>
+				<div id="Hpop2"></div>
+				<div id="Hpop3"></div>
+				<div id="Hpop4"></div>
+				<div id="Hpop5"></div>
+				<div id="Hpop6"></div>
+				<div id="Hpop7"></div>
+				<div id="Hpop8"></div>
+				<div id="Hpop9"></div>
+				<div id="Hpop10"></div>
+				<div id="Hpop11"></div>
+
+				<div id="Hour0"></div>
+				<div id="Hour1"></div>
+				<div id="Hour2"></div>
+				<div id="Hour3"></div>
+				<div id="Hour4"></div>
+				<div id="Hour5"></div>
+				<div id="Hour6"></div>
+				<div id="Hour7"></div>
+				<div id="Hour8"></div>
+				<div id="Hour9"></div>
+				<div id="Hour10"></div>
+				<div id="Hour11"></div>
+
+				<div id="Htemp0"></div>
+				<div id="Htemp1"></div>
+				<div id="Htemp2"></div>
+				<div id="Htemp3"></div>
+				<div id="Htemp4"></div>
+				<div id="Htemp5"></div>
+				<div id="Htemp6"></div>
+				<div id="Htemp7"></div>
+				<div id="Htemp8"></div>
+				<div id="Htemp9"></div>
+				<div id="Htemp10"></div>
+				<div id="Htemp11"></div>               
+			</div>
+		</div>	
+	</div>
+
+
+<div id="astronautContainer"></div>
+<div id="big_balloonContainer"></div>
+<div id="birdsContainer"></div>
+<div id="rainContainer">
+	<div id="dropContainer"></div>
+	<div id="wireContainer"></div>
+	<div id="circleContainer"></div>
+</div>
+<div id="cloudContainer"></div>
+<div id="dandelionContainer"></div>
+<div id="fogContainer"></div>
+<div id="frameContainer"></div>
+<div id="leafContainer"></div>
+<div id="medium_balloonContainer"></div>
+<div id="meteorContainer"></div>
+<div id="rainbowContainer"></div>
+<div id="secondhand_light"></div>
+<div id="small_balloonContainer"></div>
+<div id="starContainer"></div>
+<div id="sun_moonContainer"></div>
+<div id="twilightBG" class="fade-out"></div>	
+<div id="windmillContainer"></div>
+<div id="wiperContainer"></div>
+
+<div id="home">
+  <div id="HomePage"></div>
+  <div id="APIName"></div>
+  <div id="wuCity"></div>
+  <div id="wuWeatherStation"></div>
+  <div id="wuElevation"></div>
+  <div id="wuForecast"></div>
+  <div id="wuWindText"></div>
+  <div id="wuSumm" class="fade-out"></div>
+
+  <div id="fioAPICalls"></div>
+  <div id="fioCloudCover"></div>
+  <div id="fioOzone"></div>  
+  <div id="fioStormDistance"></div>
+  <div id="fioStormBearing"></div>
+  <div id="fioPrecipIntensity"></div>
+  <div id="fioHourSummary"></div>
+  <div id="fioDaySummary"></div>
+  <div id="fioWeekSummary"></div>
+  <div id="fioSumm" class="fade-out"></div>
+
+  <div id="accuUV"></div>
+  <div id="accuPrecip"></div>
+  <div id="accuRain"></div>
+  <div id="accuSnow"></div>
+  <div id="accuTStormProb"></div>
+  <div id="accuShortSumm"></div>
+  <div id="accuLongSumm"></div>
+  <div id="accuAirQuality_Type"></div>
+  <div id="accuWeed"></div>
+  <div id="accuMold"></div>
+  <div id="accuTree"></div>
+  <div id="accuGrass"></div>
+  <div id="accuMercury"></div>
+  <div id="accuVenus"></div>
+  <div id="accuMars"></div>
+  <div id="accuJupiter"></div>
+  <div id="accuSaturn"></div>
+  <div id="accuUranus"></div>
+  <div id="accuNeptune"></div>
+  <div id="accuPluto"></div>
+  <div id="accuDayShortSumm" class="fade-out"></div>
+  <div id="accuDayLongSumm" class="fade-out"></div>
+  			
+  <div id="yahooSumm" class="fade-out"></div>
+  <div id="defSumm" class="fade-out"></div>
+  <div id="SummBackground" class="fade-out"></div>
+  <div id="TouchSumm"></div>
+  
+</div>
+
+</body>
+</html>

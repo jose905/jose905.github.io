@@ -1,0 +1,8 @@
+iPh6 users, in the themes main folder:
+Rename "Widget.plist" to "Widget.plist_For_iPh4/5".
+Rename "Widget.plist_For_iPh6" to "Widget.plist"
+
+
+iPh6Plus users, in the themes main folder:
+Rename "Widget.plist" to "Widget.plist_For_iPh4/5".
+Rename "Widget.plist_iPh6Plus" to "Widget.plist"
