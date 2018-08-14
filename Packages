@@ -5,10 +5,9 @@ Maintainer:  D-Shin  <kupkez@hotmail.de>
 Depends:
 Architecture: iphoneos-arm
 Filename: .//debs/de.d-shin.dark.u7.1.xeninfo.deb
-Size: 23993372
-MD5sum: b69575ee3ce85c0c21a796f526a0e70a
-SHA1: 79391bd580c5d913db9cf4c91b4da45804766407
-SHA256: a3443049383d863baa5b3b91d19a1d1ab42822ebf390334b4d43bf4ded181afd
+MD5sum: 354be8b650c65b88bb60a656063058b1
+SHA1: f146ff44e35c6b3bf47d43af2e94ae7e54190fdb
+SHA256: e07fe6db4612738a2d5874a7ad634222d0f860f21c7375bb913057e6405375b9
 Description: Awesome Widget Weather 3 Uniaw 7.1 Dark Style Widget.
 Name: New_D_Shin_Dark_SB_U7.1-WW3_Xeninfo
 Author:  D-Shin  <kupkez@hotmail.de>
