@@ -4,7 +4,7 @@ Section: SBHTML
 Maintainer:  D-Shin  <kupkez@hotmail.de>
 Depends:
 Architecture: iphoneos-arm
-Filename: /debs/de.d-shin.dark.u7.1.xeninfo
+Filename: .//debs/de.d-shin.dark.u7.1.xeninfo
 Size: 23993304
 Installed-Size: 54369597
 MD5sum: 34bbe42dd3ea4f7188b7645c2e824c1c
