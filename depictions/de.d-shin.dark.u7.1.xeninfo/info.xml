@@ -10,13 +10,6 @@
 			
         </description>
     </descriptions>
-	
-	
-	
-	
-	
-	
-	
     <compatibility>
         <miniOS>9.0</miniOS>
         <maxiOS>11.3.1</maxiOS>
@@ -27,9 +20,6 @@
 		<dependency>XenInfo</dependency>
     </dependencies>
     <changelog>
-        <change>
-            <changeVersion></changeVersion>
-        </change>
         <change>
             <changeVersion>1.1</changeVersion>
             <changeDescription>Initial Release</changeDescription>
