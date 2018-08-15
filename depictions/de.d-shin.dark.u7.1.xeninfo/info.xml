@@ -6,10 +6,14 @@
         <description>
             Awesome Widget Weather 3 Uniaw 7.1 Dark Style Widget.
         </description>
-        <description>
-            
+        <description>         
         </description>
     </descriptions>
+	<thanks>
+        <thanks>XenHTML</thanks>
+        <thanks>WidgetWeather 3</thanks>
+		<thanks>XenInfo</thanks>
+    </thanks>
     <compatibility>
         <miniOS>9.0</miniOS>
         <maxiOS>11.3.1</maxiOS>
