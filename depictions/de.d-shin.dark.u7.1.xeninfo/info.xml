@@ -26,7 +26,7 @@
             <changeDescription></changeDescription>
         </change>
         <change>
-            <changeVersion>1.0.3</changeVersion>
+            <changeVersion>1.1</changeVersion>
             <changeDescription>Initial Release</changeDescription>
         </change>
     </changelog>
