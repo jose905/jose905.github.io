@@ -29,10 +29,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
 	background-image: url(../images/Wall.jpg);
 	background-repeat: no-repeat;
-	background-size: 100% auto;
+	background-size: 100% auto;line-height: 1;
+	
 }
 ol, ul {
 	list-style: none;
@@ -69,6 +69,7 @@ body {
   width:260px;
   text-align: left;
   font-size: 17px;
+  color:white;
 }
 
 .box{
