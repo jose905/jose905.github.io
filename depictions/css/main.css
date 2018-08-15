@@ -92,7 +92,7 @@ body {
 }
 
 #bundleId{
-	float:right;
+  float:right;
   display:inline-block;
   font-size:10px;
 }
