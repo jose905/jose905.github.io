@@ -10,9 +10,9 @@
         </description>
     </descriptions>
 	<thanks>
-        <thanks>XenHTML</thanks>
-        <thanks>WidgetWeather 3</thanks>
-		<thanks>XenInfo</thanks>
+        <credits>XenHTML</credits>
+        <credits>WidgetWeather 3</credits>
+		<credits>XenInfo</credits>
     </thanks>
     <compatibility>
         <miniOS>9.0</miniOS>
