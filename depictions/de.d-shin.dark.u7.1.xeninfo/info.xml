@@ -10,6 +10,13 @@
 			
         </description>
     </descriptions>
+	
+	
+	
+	
+	
+	
+	
     <compatibility>
         <miniOS>9.0</miniOS>
         <maxiOS>11.3.1</maxiOS>
@@ -22,8 +29,6 @@
     <changelog>
         <change>
             <changeVersion></changeVersion>
-            <changeDescription></changeDescription>
-            <changeDescription></changeDescription>
         </change>
         <change>
             <changeVersion>1.1</changeVersion>
