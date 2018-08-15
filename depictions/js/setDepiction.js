@@ -11,7 +11,6 @@ $(function(){
     console.log("Fetching XML");
     var getUrl = window.location;
     var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
-	var imgUrl2 = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1] + "/" + bundle + "/";
     console.log(baseUrl + "/"+ bundle + "/info.xml");
 
     $.ajax({

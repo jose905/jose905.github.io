@@ -124,29 +124,3 @@ body {
   margin-top:20px;
   margin-bottom:5px;
 }
-/*===========================
-  --- Featured section ----
-=========================== /*
-
-section.featured {
-    padding: 200px 0 60px;
-    background: #70B9B0;
-    color: #fdfdfd;
-    background-image: url(../img/bg.png);
-    background-size:     cover;                      / <------ /
-    background-repeat:   no-repeat;
-    background-position: center center; 
-     opacity: 0.5;
-}
-
-section.featured h2.slogan {
-    color: #fff;
-    font-size: 48px;
-    font-weight: 900;
-}
-
- / inner heading */
-section.featured.inner {
-    background: #eee;
-    padding: 150px 0 50px;
-}
