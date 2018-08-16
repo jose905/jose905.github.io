@@ -11,6 +11,7 @@ $(function(){
     console.log("Fetching XML");
     var getUrl = window.location;
     var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+	var imgUrl2 = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1] + "/" + bundle + "/";
     console.log(baseUrl + "/"+ bundle + "/info.xml");
 
     $.ajax({
@@ -35,7 +36,11 @@ $(function(){
                    $(xml).find('dependency').each(function(){
                        $("#dependencies" ).append('<li>' +$(this).text()+ '</li>');
                    });
-
+				
+				   $(xml).find('backgrounds').each(function(){
+						$("#image" ).append('<img class ="fullwidth" src="' + imgUrl2 + $(this).text() + '" alt="">');
+                   });
+				
                    $(xml).find('linkName').each(function(){
                        $("#dependencies" ).append('<li>' +$(this).text()+ '</li>');
                    });

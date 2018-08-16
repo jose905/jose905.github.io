@@ -26,8 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
-	
+	display: block;	
 }
 body {	
 	line-height: 1;
@@ -39,8 +38,7 @@ img {
 }
 ol, ul {
 	list-style: none;
-	text-align: center;
-	
+	text-align: center;	
 }
 blockquote, q {
 	quotes: none;
@@ -54,7 +52,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -64,6 +61,11 @@ body {
   width:100%;
   padding-bottom:50px;
 	
+}
+.fullwidth {
+	width: 220px;
+	height: auto;
+	padding:10px;
 }
 .boxTitle {
   margin-top:35px;
