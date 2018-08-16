@@ -21,22 +21,26 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: baseline;	
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-body {
-	background-image: url(../images/Wall.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% auto;line-height: 1;
 	
+}
+body {	
+	line-height: 1;
+}
+img {	
+	position: relative;
+	background-size: 100% 100%;
+	width:  100%;	
 }
 ol, ul {
 	list-style: none;
 	text-align: center;
+	
 }
 blockquote, q {
 	quotes: none;
@@ -59,8 +63,8 @@ body {
   font:14px -apple-system-font,".Helvetica NeueUI","Helvetica Neue",sans-serif;
   width:100%;
   padding-bottom:50px;
+	
 }
-
 .boxTitle {
   margin-top:35px;
   margin-bottom:10px;
@@ -71,7 +75,6 @@ body {
   font-size: 17px;
   color:white;
 }
-
 .box{
   background-color: #fffdfd;
   margin-bottom:20px;
@@ -82,31 +85,25 @@ body {
   margin-right:auto;
   text-align: center;
 }
-
 .box h1{
   display:inline-block;
 }
-
 #packageTitle{
   margin-bottom:10px;
 }
-
 #bundleId{
   float:right;
   display:inline-block;
   font-size:10px;
 }
-
 #version{
   float:left;
   display:inline-block;
   font-size:10px;
 }
-
 #MINIOS,#MAXIOS{
   display:inline-block;
 }
-
 #description {
   text-align: left;
   margin: 0px, 10px, 10px, 10px;
@@ -119,7 +116,6 @@ body {
   text-align:left;
   padding-bottom:20px;
 }
-
 #changeLog h1{
   margin-top:20px;
   margin-bottom:5px;
