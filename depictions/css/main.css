@@ -28,7 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-#wall {
+wall {
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	line-height: 1;
