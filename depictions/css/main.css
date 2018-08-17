@@ -55,7 +55,7 @@ table {
 body {
   margin: 0;
   padding: 0;
-  background-color:#847EFA;
+  background-color:#efeff4;
   -webkit-font-smoothing: antialiased;
   font:14px -apple-system-font,".Helvetica NeueUI","Helvetica Neue",sans-serif;
   width:100%;
@@ -75,7 +75,6 @@ body {
   width:260px;
   text-align: center;
   font-size: 17px;
-  color:white;
 }
 .box{
   background-color: #fffdfd;
