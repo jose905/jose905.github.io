@@ -91,11 +91,10 @@ body {
 }
 #packageTitle{
   margin-bottom:10px;
+  font-size:20px;
 }
 #bundleId{
-  float:right;
-  display:inline-block;
-  font-size:10px;
+	font-size: 10px;
 }
 #version{
   float:left;
