@@ -4,12 +4,13 @@
     <version>1.0</version>
     <descriptions>
         <description>
-            Awesome Wooden Style Vintage LockScreen Widget.
+        Wooden Style Vintage Widget.
         </description>
     <description>Spezial thanks to:
-        thewayofzion,Junesiphone Script
-        and San3ar for his WeatherIcon
-   </description>
+        thewayofzion: Clock Script
+        Junesiphone: Weather Script
+        San3ar: WeatherIcon
+    </description>
     </descriptions>
     <backgrounds>
 	<image>bg1.png</image>
