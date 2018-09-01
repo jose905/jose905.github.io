@@ -1,0 +1,34 @@
+<packageInfo>
+    <bundleId>de.d-shin.lspocketwatchwooden</bundleId>
+    <name>LS Pocket Watch Wooden</name>
+    <version>1.0</version>
+    <descriptions>
+        <description>
+        Wooden Style Vintage Widget.
+        </description>
+    <description>
+		<p><strong>Spezial thanks to:</strong><br><br>
+        thewaytozion: Clock Script<br>
+        Junesiphone: Weather Script<br>
+        San3ar: WeatherIcon </p>
+	</description>
+    </descriptions>
+    <backgrounds>
+	<image>bg1.png</image>
+    </backgrounds>
+    <compatibility>
+        <miniOS>9.0</miniOS>
+        <maxiOS>11.3.1</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>XenHTML</dependency>
+        <dependency>WidgetWeather 3</dependency>
+    </dependencies>
+    <changelog>
+        
+        <change>
+            <changeVersion>1.0</changeVersion>
+            <changeDescription>Initial Release</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>
