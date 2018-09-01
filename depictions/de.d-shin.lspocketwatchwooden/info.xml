@@ -6,10 +6,10 @@
         <description>
         Wooden Style Vintage Widget.
         </description>
-        <description><strong><p><u>Spezial thanks to:</u></strong><br><br>
+        <description><![CDATA[<strong><p><u>Spezial thanks to:</u></strong><br><br>
         thewaytozion: Clock Script<br>
         Junesiphone: Weather Script<br>
-        San3ar: WeatherIcon </p></description>
+        San3ar: WeatherIcon </p>]]></description>
     </descriptions>
     <backgrounds>
 	<image>bg1.png</image>
