@@ -23,6 +23,7 @@
     <dependencies>
         <dependency>XenHTML</dependency>
         <dependency>WidgetWeather 3</dependency>
+		<dependency>XenInfo</dependency>
     </dependencies>
     <changelog>
         <change>
