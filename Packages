@@ -1,0 +1,119 @@
+Package: de.d-shin.ww3.sb.1
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer:  D-Shin  <kupkez@hotmail.de>
+Filename: .//debs/de.d-shin.ww3.sb.1_1.0_iphoneos-arm.deb
+Size: 4909366
+MD5sum: 19261a179863a2693d9f260b8c06b937
+SHA1: 6ce30c9d74a0597d1dfcef0cf267c0ce5e7e379d
+SHA256: 44c55518b9278d8428a8605ff89eb9094f26b242faedffbb0c646f6601a6d268
+Description: Widget Weather 3 Widget for SB.
+Name: D-Shin_WW3_SB_1
+Author:  D-Shin  <kupkez@hotmail.de>
+Section: Widgets (SBHTML WW3)
+Depiction: https://jose905.github.io/depictions/?p=de.d-shin.ww3.sb.1
+
+Package: de.d-shin.B.and.W.ww3
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer:  D-Shin  <kupkez@hotmail.de>
+Filename: .//debs/de.d-shin.B.and.W.ww3_1.0_iphoneos-arm.deb
+Size: 10055290
+MD5sum: 53fce85dc11dcf0b808e8588a445c3b0
+SHA1: 1825dd1f8e894dccda9e284f3eeefe7a5d92cc2a
+SHA256: 56158a0c8a7b6a3174259e712869bec8e8f4940d02863af200a2455f9d80171e
+Description: Widget Weather 3 Widget for LS and SB.
+Name: B&W.WW3 for LS & SB
+Author:  D-Shin  <kupkez@hotmail.de>
+Section: Widgets (LS & SB WW3)
+Depiction: https://jose905.github.io/depictions/?p=de.d-shin.B.and.W.ww3
+
+Package: de.d-shin.daynight.u7.1ww3
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer:  D-Shin  <kupkez@hotmail.de>
+Filename: .//debs/de.d-shin.daynight.u7.1ww3_1.0_iphoneos-arm.deb
+Size: 68943088
+MD5sum: cffb18fde5c96fb41b528ab8d645dfd5
+SHA1: 144b57cec27bb8103b3197479417ea7ea5511cec
+SHA256: 97e1ba7b4064aea9c5b4aad4c60e1330579b76a38e1d25ce4bfcba4fa7373dcd
+Description: Awesome Widget Weather 3 Uniaw 7.1 Widget.
+Name: DayNight Uniaw 7.1 WW3
+Author:  D-Shin  <kupkez@hotmail.de>
+Section: Widgets (SBHTML Uniaw WW2)
+Depiction: https://jose905.github.io/depictions/?p=de.d-shin.daynight.u7.1ww3
+
+Package: de.d-shin.lspocketwatchwooden
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer:  D-Shin  <kupkez@hotmail.de>
+Filename: .//debs/de.d-shin.lspocketwatchwooden_1.0_iphoneos-arm.deb
+Size: 16830092
+MD5sum: 90b8204f1f741364852e05bc5538b78d
+SHA1: b0ff497f24d6b479c014cf78b26a1864a0ba92aa
+SHA256: a09e15b01358c1efc77fea5287017406c60fd25f9c75ce3fa992ff78cc86d6f1
+Description: Awesome Wooden Style Vintage LockScreen Widget.
+Name: LS Pocket Watch Wooden
+Author:  D-Shin  <kupkez@hotmail.de>
+Section: Widgets (LockHTML WW3)
+Depiction: https://jose905.github.io/depictions/?p=de.d-shin.lspocketwatchwooden
+
+Package: de.d-shin.Wood.u7.1.ww3
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer:  D-Shin  <kupkez@hotmail.de>
+Filename: .//debs/de.d-shin.Wood.u7.1.ww3.deb
+Size: 42123190
+MD5sum: 7bf788c40e221ff3e1b05273467c7db8
+SHA1: 3f9872305e693777f5fa08603fb5d666d99c2c0d
+SHA256: 24c35ca0ebc7be31ac4d2e9ff1601351172256d396c0f54d062c9fa2a374adcc
+Description: Awesome Widget Weather 3 Uniaw 7.1 Wood Style Widget.
+Name: Wood Uniaw 7.1 WW3
+Author:  D-Shin  <kupkez@hotmail.de>
+Section: Widgets (SBHTML Uniaw WW3)
+Depiction: https://jose905.github.io/depictions/?p=de.d-shin.Wooden.u7.1.ww3
+
+Package: de.d-shin.buufjuiced.xeninfo
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer:  D-Shin  <kupkez@hotmail.de>
+Filename: .//debs/de.d-shin.buufjuiced.xeninfo.deb
+Size: 9961664
+MD5sum: 2d2f43abf1bbeb62a71e417151511a08
+SHA1: 176aa37a3d021f76f22b629cf6d0364248329d86
+SHA256: 63208e26667ae6a160fa0e22f45f39c4c19c8d33d8883f65f6b66fe3c6baf3c7
+Description: Awesome BuufJuiced XenInfo Style Widget.
+Name: D-Shin BuufJuiced
+Author:  D-Shin  <kupkez@hotmail.de>
+Section: Widgets (SBHTML XenInfo)
+Depiction: https://jose905.github.io/depictions/?p=de.d-shin.buufjuiced.xeninfo
+
+Package: de.d-shin.ribbonbageset
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer:  D-Shin  <kupkez@hotmail.de>
+Filename: .//debs/de.d-shin.ribbonbageset.deb
+Size: 45108
+MD5sum: e1c00b04da21291ce3ca989831d97677
+SHA1: 30328c6bfdb0ba6e66d9a43bbc7e105520510bb9
+SHA256: 8376e62ab0e17535db3b536206af5adadefb89f16a5efa317912f3430fef84b1
+Description: Small set of RibbonBages for Anemone.
+Name: RibbonBageSet
+Author:  D-Shin  <kupkez@hotmail.de>
+Section: Themes
+Depiction: https://jose905.github.io/depictions/?p=de.d-shin.ribbonbageset
+
+Package: de.d-shin.dark.u7.1.xeninfo
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer:  D-Shin  <kupkez@hotmail.de>
+Filename: .//debs/de.d-shin.dark.u7.1.xeninfo.deb
+Size: 30837124
+MD5sum: 21edf9262145281a3c425dd7a81fc878
+SHA1: 0b4a9f922af11af8c07751d5614b5867f0927016
+SHA256: afb5c99f32208c10ba37361b164650d098c4f01ba784ea36940e3f7a6df40ea5
+Description: Awesome Widget Weather 3 Uniaw 7.1 Dark Style Widget.
+Name: New_D_Shin_Dark_SB_U7.1-WW3_Xeninfo
+Author:  D-Shin  <kupkez@hotmail.de>
+Section: Widgets (SBHTML Uniaw WW3)
+Depiction: https://jose905.github.io/depictions/?p=de.d-shin.dark.u7.1.xeninfo
