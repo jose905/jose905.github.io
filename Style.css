@@ -1,34 +1,23 @@
 body {
-    font-family: 'Karla',  sans-serif;
+    font-family: 'Gotham',  sans-serif;
     overflow-x: hidden;
 }
-
 header {
     text-align: center;
     background: none;
     color: #242424;
 }
-
 header .repo {
     display: block;
     padding-top:10px;
-    font-family: "Fredoka One", sans-serif;
+    font-family: "Gotham", sans-serif;
     text-transform: uppercase;
     font-size: 2em;
-}
-
-.btn-outline {
-    color:#63cdbf;
-    font-size: 1.2em;
-    border: solid 1.5px #63cdbf;
-    background: transparent;
-    transition: all 0.3s ease-in-out;
-    margin-top: 20px;
 }
 header .donation {
     display: block;
     padding-top:0px;
-    font-family: "Karla", sans-serif;
+    font-family: "Gotham", sans-serif;
     text-transform: none;
     font-size: 1.2em;
 }
@@ -40,6 +29,14 @@ footer{
 footer .footer-above {
     padding-top: 30px;
     background-color: none;
+}
+.btn-outline {
+    color:#63cdbf;
+    font-size: 1.2em;
+    border: solid 1.5px #63cdbf;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
 }
 .btn-social {
     display: inline-block;
