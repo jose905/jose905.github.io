@@ -17,6 +17,11 @@ header .repo {
     font-size: 2em;
 }
 
+    header .donation {
+        padding-top: 0px;
+        font-size: 1em;
+    }
+
 .btn-outline {
     color:#63cdbf;
     font-size: 1.2em;
