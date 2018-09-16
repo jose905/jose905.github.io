@@ -18,8 +18,8 @@ header .repo {
 }
 
     header .donation {
-        padding-top: 0px;
-        font-size: 1em;
+        padding-top: 20px;
+        font-size: 1.25em;
     }
 
 .btn-outline {
@@ -28,7 +28,7 @@ header .repo {
     border: solid 1.5px #63cdbf;
     background: transparent;
     transition: all 0.3s ease-in-out;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 header .donation {
     display: block;
