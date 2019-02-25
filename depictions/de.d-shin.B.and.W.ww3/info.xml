@@ -29,8 +29,9 @@
         <change>
             <changeVersion>1.0</changeVersion>
             <changeDescription>Initial Release</changeDescription>
+        </change>
+        <change>
             <changeVersion>1.0.1</changeVersion>
             <changeDescription>Fix Image Error</changeDescription>
-        </change>
-    </changelog>
+        </change>    </changelog>
 </packageInfo>
