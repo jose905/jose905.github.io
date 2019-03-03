@@ -1,7 +1,7 @@
 <packageInfo>
     <bundleId>de.d-shin.dark.u7.1.xeninfo</bundleId>
     <name>Dark Uniaw 7.1 WW3</name>
-    <version>1.1.1</version>
+    <version>1.1</version>
     <descriptions>
         <description>
             Awesome Widget Weather 3 Uniaw 7.1 Dark Style Widget.
@@ -30,12 +30,12 @@
     </dependencies>
     <changelog>
         <change>
-            <changeVersion>1.1.1 </changeVersion>
-            <changeDescription>fix Style problem with adress</changeDescription>
-        </change>
-        <change>
             <changeVersion>1.1</changeVersion>
             <changeDescription>Initial Release</changeDescription>
+        </change>
+        <change>
+            <changeVersion>1.1.1 </changeVersion>
+            <changeDescription>fix Style problem with adress</changeDescription>
         </change>
     </changelog>
 </packageInfo>
