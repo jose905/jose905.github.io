@@ -15,8 +15,8 @@
 	<image>bg1.png</image>
     </backgrounds>    
     <compatibility>
-        <miniOS>9.0</miniOS>
-        <maxiOS>12.1.2</maxiOS>
+        <miniOS></miniOS>
+        <maxiOS></maxiOS>
     </compatibility>
     <dependencies>
         <dependency>enjoy Modding</dependency>
