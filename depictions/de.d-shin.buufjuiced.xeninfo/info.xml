@@ -18,7 +18,7 @@
     </backgrounds>    
     <compatibility>
         <miniOS>9.0</miniOS>
-        <maxiOS>11.3.1</maxiOS>
+        <maxiOS>12.1.2</maxiOS>
     </compatibility>
     <dependencies>
         <dependency>XenHTML</dependency>
@@ -28,6 +28,10 @@
         <change>
             <changeVersion>1.0</changeVersion>
             <changeDescription>Initial Release</changeDescription>
+        </change>
+        <change>
+            <changeVersion>1.0.1</changeVersion>
+            <changeDescription>Fix Image Error</changeDescription>
         </change>
     </changelog>
 </packageInfo>
