@@ -1,0 +1,34 @@
+<packageInfo>
+    <bundleId>de.d-shin.B.and.W.ww3</bundleId>
+    <name>B&amp;W.WW3 for LS &amp; SB</name>
+    <version>1.0</version>
+    <descriptions>
+        <description>
+            Widget Weather 3 Widget for LS and SB.
+        </description>
+        <description> 
+		<![CDATA[<p><strong>Note:</strong><br>
+        Mediaplayer is only set for iPhone X<br>
+		Includes Lockscreen <br>
+		and Springboard widget.<br></p>]]>	
+        </description>
+      </descriptions>
+    <backgrounds>
+	<image>bg1.png</image>
+    </backgrounds>    
+    <compatibility>
+        <miniOS>9.0</miniOS>
+        <maxiOS>11.3.1</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>XenHTML</dependency>
+        <dependency>WidgetWeather 3</dependency>
+		<dependency>XenInfo</dependency>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>1.0</changeVersion>
+            <changeDescription>Initial Release</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>
