@@ -33,5 +33,9 @@
             <changeVersion>1.0.1</changeVersion>
             <changeDescription>Fix Image Error</changeDescription>
         </change>
+		<change>
+            <changeVersion>1.0.2</changeVersion>
+            <changeDescription>update size for all iPhones</changeDescription>
+        </change>
     </changelog>
 </packageInfo>
