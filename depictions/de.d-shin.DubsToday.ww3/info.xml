@@ -7,8 +7,8 @@
             Widget Weather 3 Widget for LS and SB.
         </description>
         <description> 
-		<![CDATA[<p><strong>Spezial Thanks to Dubs:</strong><br>
-        This is a very old masterpieace from Dubs<br>
+		<![CDATA[<p><strong>Spezial Thanks to thewaytozion and Dubs:</strong><br>
+        This is a very old masterpieace from Eric and Dubs<br>
         I just tried to make it a bit more modern<br>
 		This Packet includes Lockscreen and <br>
 		Springboard widget. enjoy<br></p>]]>	
@@ -38,6 +38,10 @@
         <change>
             <changeVersion>1.0.2</changeVersion>
             <changeDescription>Fix AM/PM</changeDescription>
+        </change>
+		<change>
+            <changeVersion>1.0.3</changeVersion>
+            <changeDescription>update size for all iPhones</changeDescription>
         </change>
     </changelog>
 </packageInfo>
