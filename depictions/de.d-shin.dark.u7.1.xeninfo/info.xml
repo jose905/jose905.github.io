@@ -37,5 +37,9 @@
             <changeVersion>1.1.1 </changeVersion>
             <changeDescription>fix Style problem with adress</changeDescription>
         </change>
+		<change>
+            <changeVersion>1.1.2</changeVersion>
+            <changeDescription>update size for all iPhones</changeDescription>
+        </change>
     </changelog>
 </packageInfo>
