@@ -24,7 +24,7 @@
             <changeDescription>Initial Release</changeDescription>
         </change>
         <change>
-            <changeVersion>1.2</changeVersion>
+            <changeVersion>1.3</changeVersion>
             <changeDescription>update size for all iPhones</changeDescription>
         </change>    </changelog>
 </packageInfo>
