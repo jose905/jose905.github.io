@@ -26,5 +26,6 @@
         <change>
             <changeVersion>1.3</changeVersion>
             <changeDescription>update size for all iPhones</changeDescription>
-        </change>    </changelog>
+        </change>
+    </changelog>
 </packageInfo>
