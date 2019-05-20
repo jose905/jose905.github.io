@@ -29,6 +29,8 @@
         <change>
             <changeVersion>1.0</changeVersion>
             <changeDescription>Initial Release</changeDescription>
+        </change>
+        <change>
             <changeVersion>1.1</changeVersion>
             <changeDescription>added switch for 12h/24h</changeDescription>
         </change>
