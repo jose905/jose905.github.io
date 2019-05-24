@@ -41,5 +41,9 @@
             <changeVersion>1.1.2</changeVersion>
             <changeDescription>update size for all iPhones</changeDescription>
         </change>
+        <change>
+            <changeVersion>1.1.3</changeVersion>
+            <changeDescription>small style fixes</changeDescription>
+        </change>
     </changelog>
 </packageInfo>
