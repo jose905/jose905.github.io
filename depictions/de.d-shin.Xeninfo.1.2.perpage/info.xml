@@ -1,0 +1,37 @@
+<packageInfo>
+    <bundleId>de.d-shin.Xeninfo.1.2.perpage</bundleId>
+    <name>Xeninfo 1.2 PerPage</name>
+    <version>1.0</version>
+    <descriptions>
+		<description>
+            PerPage Style Widget.
+        </description>
+        <description> 
+            <![CDATA[<strong><p><u>3 Page Wigdet, one Per Page</u></strong><br>
+                includes 3 widgets<br>
+                these are numbered 1-3 for SpringBoard<br>
+                You need XenHTML and XenInfo. enjoy<br><br>
+				<strong>Spezial Thanks to<br><br>
+        		thewaytozion, <br>
+				uhoffi & wrussell1989</strong><br></p>]]>
+        </description>
+      </descriptions>
+    <backgrounds>
+	<image>bg1.png</image>
+    </backgrounds>    
+    <compatibility>
+        <miniOS>9.0</miniOS>
+        <maxiOS>13.3.1</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>XenHTML</dependency>
+		<dependency>XenInfo</dependency>
+		<dependency>iPhoneX and up</dependency>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>1.0</changeVersion>
+            <changeDescription>Initial Release</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>
