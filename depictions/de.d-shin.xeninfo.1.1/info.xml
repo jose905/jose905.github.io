@@ -1,7 +1,7 @@
 <packageInfo>
     <bundleId>de.d-shin.xeninfo.1.1</bundleId>
     <name>D-Shin XenInfo 1.1</name>
-    <version>1.0</version>
+    <version>1.3.2</version>
     <descriptions>
         <description>
             XenHTML XenInfo Widget
@@ -30,6 +30,10 @@
 		<change>
             <changeVersion>1.3.1</changeVersion>
             <changeDescription>Added LS Widget</changeDescription>
+        </change>
+		<change>
+            <changeVersion>1.3.2</changeVersion>
+            <changeDescription>small optimization</changeDescription>
         </change>
     </changelog>
 </packageInfo>
