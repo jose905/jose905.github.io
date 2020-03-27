@@ -1,7 +1,7 @@
 <packageInfo>
     <bundleId>de.d-shin.Xeninfo.1.2.perpage</bundleId>
     <name>Xeninfo 1.2 PerPage</name>
-    <version>1.0</version>
+    <version>1.1</version>
     <descriptions>
 		<description>
             PerPage Style Widget.
@@ -31,6 +31,10 @@
         <change>
             <changeVersion>1.0</changeVersion>
             <changeDescription>Initial Release</changeDescription>
+        </change>
+		<change>
+            <changeVersion>1.1</changeVersion>
+            <changeDescription>small optimization</changeDescription>
         </change>
     </changelog>
 </packageInfo>
